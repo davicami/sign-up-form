@@ -1,0 +1,86 @@
+@font-face {
+    font-family: Netron;
+    src: url(./assets/Netron-p7gq1.otf);
+}
+
+@font-face {
+    font-family: TeleMarine;
+    src: url(./assets/TeleMarinesBoldExpanded-7xdA.otf);
+}
+
+:root {
+    --background: #e4e1e1;
+    --font: #222;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: var(--background);
+    font-family: Netron, sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(./assets/taiki-ishikawa-Ig0bv-E6Iqs-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 100vh;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.55);
+    top: 40px;
+    height: auto;
+    padding: 5px;
+    position: relative; 
+    top: 40%;
+    width: 100%;
+}
+
+.logo img{
+    height: 80px;
+    width: auto;
+}
+
+.greetings p {
+    font-size: 0.7rem;
+    color: white;
+    bottom: 10px;
+    left: 10px;
+    text-align: center;
+    position: relative; 
+    top: -10px;
+}
+
+
+a:link,
+a:visited{
+    color: white;
+}
+
+.text-preform p{
+    padding: 10px;
+}
