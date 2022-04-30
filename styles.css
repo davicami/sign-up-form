@@ -66,7 +66,7 @@ html {
 }
 
 .greetings p {
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     color: white;
     bottom: 10px;
     left: 10px;
@@ -75,12 +75,29 @@ html {
     top: -10px;
 }
 
-
 a:link,
 a:visited{
     color: white;
 }
 
-.text-preform p{
-    padding: 10px;
+.right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
+
+.header p{
+    padding: 20px;
+}
+
+.input-section{
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+}
+
+.input-section form{
+    padding-top: 20px;
+}
+
