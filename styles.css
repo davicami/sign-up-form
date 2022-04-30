@@ -11,6 +11,7 @@
 :root {
     --background: #e4e1e1;
     --font: #222;
+    --button-color: #596D48;
 }
 
 *,
@@ -24,6 +25,7 @@
 html {
     background-color: var(--background);
     font-family: Netron, sans-serif;
+    font-size: 20px;
 }
 
 .container {
@@ -84,7 +86,7 @@ a:visited{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .header p{
@@ -95,9 +97,45 @@ a:visited{
     background-color: white;
     width: 100%;
     padding: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.253);
 }
 
 .input-section form{
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: wrap;
     padding-top: 20px;
+    font-size: 0.9rem;
 }
 
+button{
+    background-color: var(--button-color);
+    color: var(--background);
+    padding: 10px;
+    border-radius: 5px;
+    border-color: var(--button-color);
+    font-family: Netron, sans-serif;
+    font-size: 1.05rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.253);
+}
+
+.submit-section{
+    padding: 20px;
+}
+
+.submit-section p{
+    padding-top: 20px;
+    font-size:0.9rem;
+}
+
+.submit-section a{
+    color: var(--button-color);
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding:20px;
+}
