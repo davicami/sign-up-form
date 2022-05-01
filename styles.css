@@ -12,6 +12,7 @@
     --background: #e4e1e1;
     --font: #222;
     --button-color: #596D48;
+    --focus: #87aefc;
 }
 
 *,
@@ -138,4 +139,10 @@ button{
     justify-content: flex-start;
     align-items: flex-start;
     padding:20px;
+}
+
+
+input:focus{
+    outline: none;
+    border: 2px solid var(--focus);
 }
